@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+
+    android:id="@+id/content_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <EditText
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="left"
+            android:hint="@string/enteratask"
+            android:textSize="24sp"
+            style="@android:style/Widget.DeviceDefault.EditText"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/date"
+            android:hint="@string/date"
+            android:layout_below="@id/title"
+            android:typeface="normal"
+            android:textSize="24sp"
+            android:fontFamily="sans-serif"
+            android:textColor="?android:attr/actionMenuTextColor"
+            android:textStyle="normal|bold"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/SelectDate"
+            android:id="@+id/btn_date"
+            android:layout_toRightOf="@id/date"
+            android:layout_below="@id/title"
+            android:layout_marginLeft="55dp"
+            android:textColor="@color/colorPrimary"
+            android:background="@android:color/transparent"
+            android:textStyle="normal|bold"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/time"
+            android:hint="@string/time"
+            android:textSize="24sp"
+            android:textColor="?android:attr/actionMenuTextColor"
+            android:layout_below="@id/date"
+            android:layout_marginTop="65dp"
+            android:textStyle="normal|bold"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/SelectTime"
+            android:id="@+id/btn_time"
+            android:layout_below="@id/btn_date"
+            android:layout_toRightOf="@id/time"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="70dp"
+            android:textColor="@color/colorPrimary"
+            android:background="@android:color/transparent"
+            android:textStyle="normal|bold"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="18sp"
+            />
+
+
+
+        <Button
+            android:id="@+id/confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/Confirm"
+            android:typeface="sans"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:background="?android:attr/colorActivatedHighlight"
+            android:layout_below="@id/btn_time"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:textColor="@android:color/white"/>
+
+
+    </RelativeLayout>
+
+

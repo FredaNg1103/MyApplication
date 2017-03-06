@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">To Do List</string>
+    <string name="title">Title</string>
+    <string name="date"> Date</string>
+    <string name="time"> Time</string>
+    <string name="Confirm">Confirm</string>
+    <string name="SelectDate">Select Date</string>
+    <string name="SelectTime">Select Time</string>
+    <string name="AddItem">Add Item </string>
+    <string name="title_activity_add_item">AddItemActivity</string>
+    <string name="save">Saved</string>
+    <string name="enteratask">Enter a Task</string>
+    <string name="delete">Delete</string>
+
+</resources>
